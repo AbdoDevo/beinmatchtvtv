@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import MatchContainer from '../components/MatchContainer'
 
 
-
 const Container = styled.div`
 
  
@@ -52,6 +51,7 @@ const Date=styled.span`
 
 
 const Home = () => {
+ 
     let today = new window.Date();
 
     let date=today.getDate() + "/"+ parseInt(today.getMonth()+1) +"/"+today.getFullYear();
